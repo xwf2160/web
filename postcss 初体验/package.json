@@ -1,0 +1,18 @@
+{
+  "name": "postcss 初体验",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss src/style.css -o dist/style.css",
+    "watch:css": "postcss src/style.css -o dist/style.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.0.0"
+  }
+}
